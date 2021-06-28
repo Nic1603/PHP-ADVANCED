@@ -27,7 +27,7 @@ function MaakRij($key, $value){
         echo '<h1>Welkom</h1>';
         }
     else{
-        echo '<h1 style="color:white">Terug jij, zo werkt het niet he.</h1>';
+        echo '<h1 style="color:white">Dat kan niet!</h1>';
     }
 ?>
  
