@@ -16,7 +16,7 @@
     }
     ?>
     </select>
-        Text colour: <select name = 'Tekstkleur'>
+    Text colour: <select name = 'Tekstkleur'>
     <?php
     $kleuren = array('red', 'blue', 'green', 'black', 'brown');
     foreach($kleuren as $option){
@@ -24,9 +24,9 @@
     }
     ?>
     </select>
-        Border: <input type='text' name='Tabel-borderdikte'>
-        Padding: <input type='text' name='Padding'>
-        <input type='submit' name='Submit'>
+    Border: <input type='text' name='Tabel-borderdikte'>
+    Padding: <input type='text' name='Padding'>
+    <input type='submit' name='Submit'>
     </form>
 </body>
 </html>
