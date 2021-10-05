@@ -10,7 +10,7 @@
         }
     table,tr,td{
         padding: <?php echo $_POST['Padding'] ?>px;
-        border: <?php echo $_POST['Tabel-borderdikte'] ?>px gray;
+        border: <?php echo $_POST ['Border'] ?>px;
         }
 </style>
 </head>
@@ -29,7 +29,9 @@ function MaakRij($key, $value){
     else{
         echo '<h1 style="color:white">Dat kan niet!</h1>';
     }
+
 ?>
+
  
     <table border='$info'>
         <thead>
@@ -40,7 +42,7 @@ function MaakRij($key, $value){
             </thead>
             <tbody>
             
-                <?php
+                <?php  
                 $info = array('voornaam'=>'Nicolas', 'achternaam'=>'Gonsalves', 'leeftijd'=>'18', 'woonplaats'=>'Amstelveen');
  
                    foreach ($info as $key => $value) {
