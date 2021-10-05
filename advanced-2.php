@@ -43,7 +43,7 @@ function MaakRij($key, $value){
             <tbody>
             
                 <?php  
-                $info = array('voornaam'=>'Nicolas', 'achternaam'=>'Gonsalves', 'leeftijd'=>'18', 'woonplaats'=>'Amstelveen');
+                $info = array('Voornaam'=>'Nicolas', 'Achternaam'=>'Gonsalves', 'Leeftijd'=>'18', 'Woonplaats'=>'Amstelveen');
  
                    foreach ($info as $key => $value) {
                       MaakRij($key, $value);
